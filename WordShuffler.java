@@ -27,7 +27,7 @@ public class WordShuffler {
 			
 			System.out.println("Randomized Input String");
 			
-
+			//Outputs the ArrayList.
 			for (int i = 0; i < WordsArrayList.size();i++) 
 			{ 		      
 			  System.out.println(WordsArrayList.get(i)); 		
