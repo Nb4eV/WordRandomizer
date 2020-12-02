@@ -30,7 +30,7 @@ public class WordShuffler {
 
 			for (int i = 0; i < WordsArrayList.size();i++) 
 			{ 		      
-			  System.out.print(WordsArrayList.get(i)); 		
+			  System.out.println(WordsArrayList.get(i)); 		
 			}   
 		}
 	}
