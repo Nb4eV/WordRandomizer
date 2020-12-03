@@ -28,10 +28,23 @@ public class WordShuffler {
 			System.out.println("Randomized Input String");
 			
 			//Outputs the ArrayList.
-			for (int i = 0; i < WordsArrayList.size();i++) 
-			{ 		      
-			  System.out.println(WordsArrayList.get(i)); 		
-			}   
+			//The program asks whether the user wants output in one line or in place every word in different line.
+			System.out.print("Print all words in one line?(y/n): ");
+			String OutputCheck = scanner.nextLine();
+			//If statement which outputs words in the way used wanted to.
+			if ( OutputCheck.equals("y") ) {
+				for (int i = 0; i < WordsArrayList.size();i++) 
+			    { 		      
+			        System.out.print(WordsArrayList.get(i) + " "); 		
+			    }   
+			} else if ( OutputCheck.equals("n") ) {
+				for (int i = 0; i < WordsArrayList.size(); i++) 
+				{
+					System.out.println(WordsArrayList.get(i));
+				}
+			} else {
+				System.out.println("Error | The User must input y/n at the last question.");
+			}  
 		}
 	}
 }
