@@ -17,7 +17,7 @@ public class WordShuffler {
 			
 			//Splits String into words and puts them in "Words" array. Array output can be used for test purposes
 			String[] Words = String.split("\\s+");
-			System.out.println("String's Array is: " + Arrays.toString(Words));
+			System.out.println("String Array is: " + Arrays.toString(Words));
 			//Counts the amout of words in the String. 
 			System.out.println("The count of words in the String " + Words.length);
 			//Converts from Array "Words" to ArrayList "WordsArrayList", after that words in ArrayList get shuffled randomly.
